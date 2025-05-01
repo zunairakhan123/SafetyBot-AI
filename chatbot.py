@@ -2,7 +2,7 @@
 from groq import Groq
 from config import GROQ_API_KEY, MODEL_NAME, SAFE_PROMPT_PREFIX
 
-client = Groq(api_key="GROQ_API_KEY")
+client = Groq(api_key=GROQ_API_KEY)
 
 ROLE_PROMPTS = {
     "child": "Use simple words. Always be very positive, fun, simple, and safe. Use simple words and lots of encouragement.",
